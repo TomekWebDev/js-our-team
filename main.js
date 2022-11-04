@@ -39,8 +39,8 @@ for(i = 0; i < team.length; i++){
     document.getElementById("team-members").innerHTML += 
 
 
-`   <div id="card" class="card" style="width: 18rem;">
-        <img src="${thisObject.image}" class="card-img-top" alt="...">
+`   <div id="card" class="card mx-2 my-2" style="width: 18rem;">
+        <img src="img/${thisObject.image}" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">${thisObject.name}</h5>
             <p class="card-text">${thisObject.role}</p>
